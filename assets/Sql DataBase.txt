@@ -1,0 +1,47 @@
+CREATE DATABASE thewho;
+use thewho;
+
+CREATE TABLE TheWho_UKSingles(
+	Id INT AUTO_INCREMENT PRIMARY KEY,
+    Name VARCHAR(75) NOT NULL,
+    Year INT NOT NULL,
+    Album VARCHAR(50) NOT NULL
+);
+
+
+INSERT INTO TheWho_UKSingles
+VALUES 
+(0,"Substitute",1966,"Direct Hits"),
+(0,"Won't Get fooled Again",1971,"Who's Next"),
+(0,"My Generation",1965,"My Generation"),
+(0,"I Can See for Miles",1967,"The Who Sell Out"),
+(0,"I'm a Boy",1966,"Direct Hits"),
+(0,"5:15",1974,"Quadrophenia"),
+(0,"Anyway Anyhow Anywhere",1965,"Single"),
+(0,"Pinball Wizard",1969,"Tommy"),
+(0,"Pictures of Lily",1967,"The Who Sell Out"),
+(0,"I Can't Explain",1965,"My Generation"),
+(0,"Join Together",1972,"Hooligans"),
+(0,"Relay",1972,"Hooligans"),
+(0,"Magic Bus",1968,"Single"),
+(0,"The kids Are Alright",1966,"The kids Are Alright"),
+(0,"Summertime Blues",1970,"Live at Leeds"),
+(0,"You Better You Bet",1981,"Face Dances"),
+(0,"Who Are You",1978,"Who Are You"),
+(0,"Real Good Looking Boy",2004,"Then and Now"),
+(0,"Happy Jack",1966,"A Quick One"),
+(0,"Ready Steady Who",1966,"Ready Steady Who"),
+(0,"The Seeker",1970,"Meaty Beaty Big and Bouncy"),
+(0,"Be Lucky",2014,"Single"),
+(0,"Squeeze Box",1976,"The Who by Numbers"),
+(0,"Eminence Front",1982,"It's Hard"),
+(0,"Dogs",1968,"The Who Sell Out"),
+(0,"Long Live Rock",1979,"Single"),
+(0,"See Me, Feel Me",1969,"Tommy"),
+(0,"A Legal Matter",1966,"Single"),
+(0,"La-La-La-Lies",1965,"My Generation"),
+(0,"Let's See Action",1971,"Single"),
+(0,"It's Not Enough",2006,"Endless Wire"),
+(0,"Don't Let Go the Coat",1981,"Face Dances"),
+(0,"The Last Time",1967,"The Who Sell Out"),
+(0,"Athena",1966,"It's Hard");
